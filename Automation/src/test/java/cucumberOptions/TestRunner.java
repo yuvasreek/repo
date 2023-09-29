@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber; //yuva
 
-@RunWith(Cucumber.class) //pon
+@RunWith(Cucumber.class) //ponnuvel
 @CucumberOptions(  
 	    features = "src/test/java/features",
 	    glue="stepDefinations",tags="@PortalTest",strict=true,monochrome=true,
