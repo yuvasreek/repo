@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-@RunWith(Cucumber.class)
+@RunWith(Cucumber.class) //pon
 @CucumberOptions(  
 	    features = "src/test/java/features",
 	    glue="stepDefinations",tags="@PortalTest",strict=true,monochrome=true,
