@@ -1,0 +1,33 @@
+xpath
+  //tagname[@att='value'];
+  (//tagname[@att='value'])[2]    //give index by seeing(when multiple match found)
+  //parenttagname/childtagname  //only tagname 
+  //parenttagname/childtagname[2]  //only tagname with index(when multiple match found)
+  //tagname[contains(@att,'valuehalf')]  //regex for half constant words.
+  //parenttag[@att='value']/childtag[1] ex:div[@class='submit-pwd-hh']/button[1] (2 box in a box)
+  //tagname
+  //tagname[text()='text']  //only for text not for linktext
+//parent/parent2/child[1]/following -sibling::sibtagname[1]         //goes to sibling
+//parent/parent2/child[1]/parent::parent2tagname/parent::parenttagname                   //goes to last parentand again to top parent
+//parenttagname[@att='value'] //childtagname[@att='value']       //even if 10 same element in page it will select this child(parent child relationship)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+class while giving as attribute rather than by.classname where in case of space half is enough but as attribute should use full value.
